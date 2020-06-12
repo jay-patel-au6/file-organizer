@@ -6,7 +6,7 @@ This is a python project to organize scattered files and/or directories.
 
 The repo contains an executable file in dist folder which should be placed in the system such that it can be called globally.
 
-If you need to make a new executable file, go to the directory where this repo is located and type folloing command in terminal. A new executable file will be created in dist directory.
+If you need to make a new executable file, go to the directory where this repo is located and type following command in terminal. A new executable file will be created in dist directory.
 
 ```bash
 pyinstaller main.py --onefile
