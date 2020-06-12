@@ -58,7 +58,7 @@ organize_files by_size --src ./organize_this_directory
 organize_files <organize_by> [--dist DIST]
 ```
 
-Used to make a new(non-existent) directory as destination where files/folders are organized. Can take absolute/relative path as value.
+Used to make a an existent/non-existent directory as destination where files/folders are organized. Can take absolute/relative path as value.
 Default is set to a new(non-existent) directory in desktop.
 
 Example:
