@@ -32,7 +32,7 @@ Default is set to desktop.
 ''')
 
 parser.add_argument('--dist', '-D', type=str, metavar='DIST', default=os.path.join(desktop, "organized at " + timestr), help='''
-Used to make a new(non-existent) directory as destination
+Used to make an existent/non-existent directory as destination
 where files/folders are organized.
 Can take absolute/relative path as value.
 Default is set to a new(non-existent) directory in desktop.

@@ -9,7 +9,8 @@ from rm_empty_directories import rm_empty_directories
 
 
 def organizer(organize_by, src, dist, ignore, include_sub_directories):
-    os.makedirs(dist)
+    if not os.path.exists(dist):
+        os.makedirs(dist)
 
     if not os.path.exists(src):
         return print('source directory does not exist!')
