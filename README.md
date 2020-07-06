@@ -2,6 +2,8 @@
 
 This is a python project to organize scattered files and/or directories.
 
+[Demo](https://github.com/jay-patel-au6/file-organizer/blob/master/demo.webm)
+
 ## Installation
 
 The repo contains an executable file in dist folder which should be placed in the system such that it can be called globally.
